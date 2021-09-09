@@ -103,7 +103,7 @@ type TagsColors struct {
 // UserStoriesCounts represents the number of userStories
 type UserStoriesCounts struct {
 	Progress int `json:"progress,omitempty"`
-	Total    int `json:"total,omitempty"`
+	Total    float32 `json:"total,omitempty"`
 }
 
 /*
